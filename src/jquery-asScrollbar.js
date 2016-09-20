@@ -1,4 +1,4 @@
-import $ from 'jQuery';
+import $ from 'jquery';
 
 import defaults from './defaults';
 import easingBezier from './easingBezier';
@@ -746,8 +746,6 @@ class asScrollbar {
   }
 
   static _jQueryInterface(options, ...args) {
-    'use strict';
-
     if (typeof options === 'string') {
       return this.each(function() {
         let instance = $(this).data(NAME);

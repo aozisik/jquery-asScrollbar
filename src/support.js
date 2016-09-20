@@ -2,7 +2,7 @@
  * Css features detect
  **/
 
-import $ from 'jQuery';
+import $ from 'jquery';
 
 let support = {};
 
